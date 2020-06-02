@@ -5,7 +5,7 @@
     background: #F5F4FA; - фон окна
     color: #2196F3; - ховер ефект
     - */
-/* глобальные селекторы */
+/* ---глобальные селекторы---- */
 a {
   text-decoration: none;
 }
@@ -14,14 +14,17 @@ li {
 }
 body {
   color: #212121;
-  background-color: #96969652;
+  background-color: #96969652; /* временный цвет для удобства */
 }
 .hide-headers {
   display: none;
 }
-/* Селекторы header  */
+/* ----Селекторы header----  */
 /* Селекторы навигации */
 .header-nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
   color: #212121;
 }
 .header-nav-link:hover,
@@ -30,42 +33,105 @@ body {
 }
 /* Селекторы адреса */
 .header-nav-adress {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
   color: #757575;
 }
 .header-nav-adress:hover,
 .header-nav-adress:focus {
   color: #2196f3;
 }
-/* Селекторы footer */
-.footer-headers {
+/* ----Селекторы footer---- */
+.footer-titles {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
   color: #ffffff;
 }
 /* Контакты и адреса */
 .footer-adress-link {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px;
   color: rgba(255, 255, 255, 0.6);
 }
 .footer-adress-map {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px;
   color: #ffffff;
 }
 .footer-copyright {
-  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  font-size: 12px;
+  line-height: 24px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.4);
 }
-/* селекторы страницы Index.html */
+/* ----селекторы страницы Index.html----- */
+.section-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #212121;
+}
 /* Селекторы секции заказа услуг */
-.services-text {
+.services-text-hero {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.services-button-text {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
   color: #ffffff;
 }
 /* Селекторы секции преимущества */
+.feature-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+}
 .feature-text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
   color: #757575;
 }
+/* Селекторы секции чем мы занимаемся */
 /* Селекторы секции наша команда */
+.our-team-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #212121;
+}
 .our-team-text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
   color: #757575;
 }
-/* Селекторы страницы portfolio.html */
+/* ----Селекторы страницы portfolio.html---- */
 /* секция навигация */
 .main-navigation-headers {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26x;
+  text-align: center;
   color: #212121;
 }
 .main-navigation-headers:hover,
@@ -73,6 +139,13 @@ body {
   color: #ffffff;
 }
 /* секция контента */
+.main-content-headers {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36x;
+}
 .main-content-text {
+  font-size: 16px;
+  line-height: 30px;
   color: #757575;
 }
