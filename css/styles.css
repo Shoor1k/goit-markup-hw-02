@@ -1,0 +1,78 @@
+/* color: #212121; - основной чорный 
+    color: #757575; - вторичный чорный
+    color: #FFFFFF; - основной белый
+    color: #757575; - вторичный белый 
+    background: #F5F4FA; - фон окна
+    color: #2196F3; - ховер ефект
+    - */
+/* глобальные селекторы */
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+body {
+  color: #212121;
+  background-color: #96969652;
+}
+.hide-headers {
+  display: none;
+}
+/* Селекторы header  */
+/* Селекторы навигации */
+.header-nav-link {
+  color: #212121;
+}
+.header-nav-link:hover,
+.header-nav-link:focus {
+  color: #2196f3;
+}
+/* Селекторы адреса */
+.header-nav-adress {
+  color: #757575;
+}
+.header-nav-adress:hover,
+.header-nav-adress:focus {
+  color: #2196f3;
+}
+/* Селекторы footer */
+.footer-headers {
+  color: #ffffff;
+}
+/* Контакты и адреса */
+.footer-adress-link {
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-adress-map {
+  color: #ffffff;
+}
+.footer-copyright {
+  color: rgba(255, 255, 255, 0.6);
+}
+/* селекторы страницы Index.html */
+/* Селекторы секции заказа услуг */
+.services-text {
+  color: #ffffff;
+}
+/* Селекторы секции преимущества */
+.feature-text {
+  color: #757575;
+}
+/* Селекторы секции наша команда */
+.our-team-text {
+  color: #757575;
+}
+/* Селекторы страницы portfolio.html */
+/* секция навигация */
+.main-navigation-headers {
+  color: #212121;
+}
+.main-navigation-headers:hover,
+.main-navigation-headers:focus {
+  color: #ffffff;
+}
+/* секция контента */
+.main-content-text {
+  color: #757575;
+}
