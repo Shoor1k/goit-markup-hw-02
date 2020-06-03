@@ -26,7 +26,7 @@ body {
 .header-nav-link {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
 }
@@ -39,7 +39,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
 }
@@ -52,7 +52,7 @@ body {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   text-transform: uppercase;
   color: #ffffff;
 }
@@ -60,19 +60,19 @@ body {
 .footer-adress-link {
   font-style: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   color: rgba(255, 255, 255, 0.6);
 }
 .footer-adress-map {
   font-style: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   color: #ffffff;
 }
 .footer-copyright {
   font-style: normal;
   font-size: 12px;
-  line-height: 24px;
+  line-height: 2;
   text-align: center;
   color: rgba(255, 255, 255, 0.4);
 }
@@ -80,7 +80,7 @@ body {
 .section-title {
   font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
   text-align: center;
   color: #212121;
 }
@@ -88,7 +88,7 @@ body {
 .services-text-hero {
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -97,7 +97,7 @@ body {
 .services-button-text {
   font-weight: bold;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
@@ -106,13 +106,13 @@ body {
 .feature-title {
   font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   text-transform: uppercase;
 }
 .feature-text {
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   color: #757575;
 }
 /* Селекторы секции чем мы занимаемся */
@@ -120,14 +120,14 @@ body {
 .our-team-title {
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   text-align: center;
   color: #212121;
 }
 .our-team-text {
   font-weight: normal;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 11.18;
   text-align: center;
   color: #757575;
 }
@@ -136,7 +136,7 @@ body {
 .main-filters-headers {
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.62;
   text-align: center;
 }
 .filters-button {
@@ -155,17 +155,17 @@ body {
 .main-content-headers {
   font-weight: bold;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
 }
 .main-content-text {
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.8;
   color: #757575;
 }
 .main-content-text-target {
   font-size: 18px;
-  line-height: 28px;
+  line-height: 1.5;
   color: #ffffff;
 }
