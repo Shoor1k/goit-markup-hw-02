@@ -15,6 +15,7 @@ li {
 body {
   color: #212121;
   background-color: #96969652; /* временный цвет для удобства */
+  font-family: "Roboto", sans-serif;
 }
 .hide-headers {
   display: none;
@@ -126,23 +127,30 @@ body {
   color: #757575;
 }
 /* ----Селекторы страницы portfolio.html---- */
-/* секция навигация */
-.main-navigation-headers {
+/* секция фильтров */
+.main-filters-headers {
   font-weight: 500;
   font-size: 16px;
-  line-height: 26x;
+  line-height: 26px;
   text-align: center;
-  color: #212121;
 }
-.main-navigation-headers:hover,
-.main-navigation-headers:focus {
+.filters-button {
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  border: none;
+}
+.filters-button:hover,
+.filters-button:focus {
+  background-color: #2196f3;
   color: #ffffff;
+  border-radius: 4px;
+  border: none;
 }
 /* секция контента */
 .main-content-headers {
   font-weight: bold;
   font-size: 18px;
-  line-height: 36x;
+  line-height: 36px;
 }
 .main-content-text {
   font-size: 16px;
