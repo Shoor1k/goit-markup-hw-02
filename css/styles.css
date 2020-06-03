@@ -50,7 +50,7 @@ body {
 /* ----Селекторы footer---- */
 .footer-titles {
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
@@ -78,7 +78,7 @@ body {
 }
 /* ----селекторы страницы Index.html----- */
 .section-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -95,7 +95,7 @@ body {
   color: #ffffff;
 }
 .services-button-text {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   text-align: center;
@@ -104,13 +104,13 @@ body {
 }
 /* Селекторы секции преимущества */
 .feature-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
 .feature-text {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   color: #757575;
@@ -125,7 +125,7 @@ body {
   color: #212121;
 }
 .our-team-text {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 11.18;
   text-align: center;
@@ -153,7 +153,7 @@ body {
 }
 /* секция контента */
 .main-content-headers {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
