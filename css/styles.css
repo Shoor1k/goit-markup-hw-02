@@ -89,7 +89,7 @@ body {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  color: #212121;
+  color: var(--main-color-black);
 }
 /* Селекторы секции заказа услуг */
 .services-text-hero {
@@ -129,7 +129,7 @@ body {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-  color: #212121;
+  color: var(--main-color-black);
 }
 .our-team-text {
   font-weight: 400;
@@ -144,7 +144,6 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  text-align: center;
 }
 .filters-button {
   background-color: #f5f4fa;
@@ -164,7 +163,7 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--main-color-black);
 }
 .main-content-text {
   font-size: 16px;
