@@ -1,7 +1,7 @@
 /* color: #212121; - основной чорный 
     color: #757575; - вторичный чорный
     color: #FFFFFF; - основной белый
-    color: #757575; - вторичный белый 
+    color: rgba(255, 255, 255, 0.6); - вторичный белый 
     background: #F5F4FA; - фон окна
     color: #2196F3; - ховер ефект
     - */
@@ -21,6 +21,13 @@ body {
 .hide-headers {
   display: none;
 }
+:root {
+  --main-color-black: #212121;
+  --sub-main-color-black: #757575;
+  --main-color-white: #ffffff;
+  --sub-main-color-white: rgba(255, 255, 255, 0.6);
+  --hover-color: #2196f3;
+}
 /* ----Селекторы header----  */
 /* Селекторы навигации */
 .header-nav-link {
@@ -28,11 +35,11 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--main-color-black);
 }
 .header-nav-link:hover,
 .header-nav-link:focus {
-  color: #2196f3;
+  color: var(--hover-color);
 }
 /* Селекторы адреса */
 .header-nav-adress {
@@ -41,11 +48,11 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--sub-main-color-black);
 }
 .header-nav-adress:hover,
 .header-nav-adress:focus {
-  color: #2196f3;
+  color: var(--hover-color);
 }
 /* ----Селекторы footer---- */
 .footer-titles {
@@ -54,27 +61,27 @@ body {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--main-color-white);
 }
 /* Контакты и адреса */
 .footer-adress-link {
   font-style: normal;
   font-size: 14px;
   line-height: 1.7;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--sub-main-color-white);
 }
 .footer-adress-map {
   font-style: normal;
   font-size: 14px;
   line-height: 1.7;
-  color: #ffffff;
+  color: var(--main-color-white);
 }
 .footer-copyright {
   font-style: normal;
   font-size: 12px;
   line-height: 2;
   text-align: center;
-  color: rgba(255, 255, 255, 0.4);
+  color: var(--sub-main-color-white);
 }
 /* ----селекторы страницы Index.html----- */
 .section-title {
@@ -92,7 +99,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--main-color-white);
 }
 .services-button-text {
   font-weight: 700;
@@ -100,7 +107,7 @@ body {
   line-height: 1.87;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--main-color-white);
 }
 /* Селекторы секции преимущества */
 .feature-title {
@@ -113,7 +120,7 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
-  color: #757575;
+  color: var(--sub-main-color-black);
 }
 /* Селекторы секции чем мы занимаемся */
 /* Селекторы секции наша команда */
@@ -129,7 +136,7 @@ body {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-  color: #757575;
+  color: var(--sub-main-color-black);
 }
 /* ----Селекторы страницы portfolio.html---- */
 /* секция фильтров */
@@ -146,8 +153,8 @@ body {
 }
 .filters-button:hover,
 .filters-button:focus {
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: var(--hover-color);
+  color: var(--main-color-white);
   border-radius: 4px;
   border: none;
 }
@@ -162,10 +169,10 @@ body {
 .main-content-text {
   font-size: 16px;
   line-height: 1.8;
-  color: #757575;
+  color: var(--sub-main-color-black);
 }
 .main-content-text-target {
   font-size: 18px;
   line-height: 1.5;
-  color: #ffffff;
+  color: var(--main-color-white);
 }
